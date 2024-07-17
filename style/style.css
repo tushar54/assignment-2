@@ -193,8 +193,22 @@ font-weight:900;
     .banner{
         flex-direction: column;
     }
+    .floating-div1{
+      bottom: 120px;
+      left: -40px;
+    }
     .floating-div2{
         top: 30px;
-        right: -40px;
+        right: -30px;
     }
+    .banner-btn1,.banner-btn2{
+        width: 200px;
+    }
+    .navbar-banner{
+        margin-top: 30px;
+    }
+    .text-banner h1{
+        font-size: 3.8rem;
+    }
+    
 }
