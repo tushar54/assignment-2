@@ -183,39 +183,6 @@ font-size: 1.6rem;
 font-weight:900;
 }
 
-
-
-@media screen and (max-width: 576px) {
-       
-    .menu{
-        display: none;
-
-    }
-    .hamburger{
-        display: block;
-    }
-    .banner{
-        flex-direction: column;
-    }
-    .floating-div1{
-      bottom: 120px;
-      left: -40px;
-    }
-    .floating-div2{
-        top: 30px;
-        right: -30px;
-    }
-    .banner-btn1,.banner-btn2{
-        width: 200px;
-    }
-    .navbar-banner{
-        margin-top: 30px;
-    }
-    .text-banner h1{
-        font-size: 3.8rem;
-    }
-    
-}
 /* change your habit section */
 .habit-section{
     max-width: 1100px;
@@ -274,4 +241,43 @@ font-weight: 350;
 font-family: Inter;
 font-size: 14px;
 font-weight: 400;
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+       
+    .menu{
+        display: none;
+
+    }
+    .hamburger{
+        display: block;
+    }
+    .banner,.habit-section{
+        flex-direction: column;
+    }
+    .habit-img-section{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .floating-div1{
+      bottom: 120px;
+      left: -40px;
+    }
+    .floating-div2{
+        top: 30px;
+        right: -30px;
+    }
+    .banner-btn1,.banner-btn2{
+        width: 200px;
+    }
+    .navbar-banner{
+        margin-top: 30px;
+    }
+    .text-banner h1{
+        font-size: 3.8rem;
+    }
+    
+    
 }
