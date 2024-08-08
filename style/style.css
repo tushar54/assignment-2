@@ -242,6 +242,100 @@ font-family: Inter;
 font-size: 14px;
 font-weight: 400;
 }
+/* my own section  */
+
+
+
+.my-main-section{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    /* margin: 0 auto; */
+    /* gap: 100px; */
+}
+.my-own-text{
+    width: 400px;
+}
+.my-own-text h3{
+    color: rgba(255, 255, 255, 0.87);
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 10px;
+}
+.my-own-text p{
+    color: rgba(255, 255, 255, 0.766);
+    font-size: .9rem;
+    font-weight: 400;
+    padding: 10px;
+
+}
+.add-photo{
+    width: 150px;
+    height: 50px;
+    color: rgba(255, 255, 255, 0.869);
+    background-color: #E6533C;
+    border: none;
+  margin-top: 30px;
+  border-radius: 5px;
+  font-size: 1rem;
+    
+}
+.my-section{
+    max-width:1000px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+.own-photo-section{
+    width: 300px;
+    height:350px;
+    background-image: url(../images/exercise1.jpg);
+    background-color: rgba(255, 0, 0, 0.251);
+    background-blend-mode:overlay;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    /* border-radius: 20px; */
+    position: relative;
+
+
+}
+.inner-photo-section{
+    width: 220px;
+    height: 280px;
+    background-image: url(../images/exercise2.png);
+    background-color: #00ff3c2d;
+    background-blend-mode:overlay;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 70% 50%;
+    position: absolute;
+    left: 150px;
+    top: 138px;
+    
+}
+.inner-photo-section2{
+    width: 150px;
+    height: 180px;
+    background-image: url(../images/exercise3.png);
+    background-color: #0000ff2d;
+    background-blend-mode:overlay;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 70% 50%;
+    position: absolute;
+    left: 280px;
+    top: 292px;
+    
+}
+.icon{
+color:rgba(255, 255, 255, 0.908);
+font-size: 3rem;
+font-weight: 700;
+
+
+}
+
 /* run extra mile */
 .run-section{
     background-color: #222222;
@@ -267,7 +361,7 @@ font-weight: 400;
     background-image: url(../images/run.jpg);
     background-repeat: no-repeat;
     background-size:auto;
-    background-position:65% 33%;
+    background-position:65% 30%;
     border-radius: 20px;
 }
 .run-text h2{
@@ -282,10 +376,246 @@ font-family: Inter;
 font-size: .9rem;
 font-weight: 400;
 }
+/* Bmi calculator section  */
+.bmi-calculator{
+    max-width: 671px;
+    margin: 0 auto;
+}
+.bmi-calculator h2{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 48px;
+font-weight: 900;
+}
+.bmi-calculator p{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+}
+/* Bmi calculator main section  */
+.bmi-main-calculator{
+    max-width: 1440px;
+    background-color: #222222;
+}
+table{
+    border: 1px solid #3f3e3e;
+    border-collapse: collapse;
+    width: 300px;
+    height: 200px;
+    /* text-align: start; */
+}
+tr,td,th{
+    border: 1px solid #3f3e3e;
+    padding: 10px;
+    text-align: start;
+}
+td{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: .9rem;
+font-weight: 400;
+}
+th{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 1rem;
+font-weight: 400;
+}
+caption{
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 1.8rem;
+font-weight: 800;
+text-align: start;
+margin-bottom: 52px;
+}
+.bmi-main-calculator{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
+.text-calculate{
+    max-width: 550px;
+    margin-bottom: 30px;
+}
+.text-calculate h2{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 28px;
+font-weight: 900;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+.text-calculate p{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.btn-calculator{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.calculator input{
+    max-width: 200px;
+    height: 24px;
+    background-color: #393939;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.option1{
+    width: 179px;
+    height: 33px;
+    background-color: #393939;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: rgba(255, 255, 255, 0.419);
+}
+.option2{
+    width: 362px;
+    height: 33px;
+    background-color: #393939;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: rgba(255, 255, 255, 0.378);
+}
 
 
+/* meet our team section  */
+.trainer-img{
+    max-width: 1050px;
+    background-color: #ffffff2d;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 20px;
+    border-radius: 14px;
+}
+.trainer-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+}
+.photo1,.photo2,.photo3,.photo4,.photo5,.photo6{
+   width: 315px;
+   height: 270px;
 
-
+}
+.photo1{
+    background-image:url(../images/trainer1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 15px;
+}
+.photo2{
+    background-image:url(../images/trainer2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 15px;
+}
+.photo3{
+    background-image:url(../images/trainer3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 15px;
+}
+.photo4{
+    background-image:url(../images/trainer4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 15px;
+}
+.photo5{
+    background-image:url(../images/trainer5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 15px;
+}
+.photo6{
+    background-image:url(../images/trainer6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 15px;
+}
+.trainer-text h2{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 3rem;
+font-weight: 800;
+margin-bottom: 20px;
+}
+.trainer-text p{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: .9rem;
+font-weight: 300;
+}
+/* footer section  */
+.main-footer{
+    max-width: 1440px;
+    background-color: #222222;
+}
+hr{
+    max-width: 1100px;
+}
+.footer-text{
+    text-align: center;
+}
+.footer{
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+.text1{
+    max-width: 300px;
+    line-height: 30px;
+}
+.footer-t{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.592);
+}
+.text1 h2{
+font-size: 1.5rem;
+font-weight: 700;
+color: rgba(255, 255, 255, 0.902);
+}
+.text1 p{
+    font-size:1rem;
+    font-weight: 400;
+    color :rgba(255, 255, 255, 0.783);
+}
+.footer-h{
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 30px;
+}
 @media screen and (max-width: 576px) {
        
     .menu{
@@ -295,10 +625,15 @@ font-weight: 400;
     .hamburger{
         display: block;
     }
-    .banner,.habit-section,.run-section{
+    .banner,
+    .habit-section,
+    .run-section,
+    .bmi-main-calculator,.footer,.my-main-section
+    {
         flex-direction: column;
     }
-    .habit-img-section{
+    .habit-img-section,
+    .trainer-img{
         grid-template-columns: repeat(1,1fr);
     }
     .floating-div1{
@@ -314,6 +649,7 @@ font-weight: 400;
     }
     .navbar-banner{
         margin-top: 30px;
+        margin-left: 0;
     }
     .text-banner h1{
         font-size: 3.8rem;
@@ -326,5 +662,49 @@ font-weight: 400;
     .run-button{
         width: 350px;
     }
-    
+    .calculator input{
+        max-width: 180px;
+
+    } 
+    .option1{
+        max-width: 190px;
+    }
+    .option2{
+        max-width: 383px;
+    }
+    .footer{
+        align-items: start;
+    }
+    .main-calculator{
+        margin-left: 20px;
+    }
+    .my-own-text{
+        margin-top:20px;
+    }
+   .inner-photo-section,.inner-photo-section2{
+    display: none;
+   }
+   .icon{
+    position: relative;
+    top: -203px;
+   }
+}
+@media screen and (min-width: 992px) {
+    .floating-div2{
+        width: 170px;
+        top: 50px;
+        right: -3px;
+
+    }
+    .trainer-img{
+        max-width: 1000px;
+        
+    }
+    .photo{
+        width: 250px;
+        height: 200px;
+        overflow: hidden;
+        border-radius: 15px;
+     
+     }
 }
